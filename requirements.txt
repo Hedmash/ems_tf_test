@@ -1,0 +1,6 @@
+pandas
+pyyaml
+psycopg2
+mysql
+mysql.connector
+pymongo

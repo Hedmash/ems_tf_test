@@ -1,0 +1,20 @@
+postgres:
+  host: postgres_host
+  port: postgres_port
+  database: postgres_dbname
+  user: postgres_username
+  password: ${POSTGRES_PASSWORD}
+
+mongo:
+  host: mongo_host
+  port: mongo_port
+  database: mongo_dbname
+  user: mongo_username
+  password: ${MONGO_PASSWORD}
+
+mysql:
+  host: mysql_host
+  port: mysql_port
+  database: mysql_dbname
+  user: mysql_username
+  password: ${MYSQL_PASSWORD}
