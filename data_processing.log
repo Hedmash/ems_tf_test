@@ -1,0 +1,390 @@
+2023-12-03 15:07:34,059 - INFO - Reading JSON file...
+2023-12-03 15:07:34,075 - INFO - Data loaded successfully.
+2023-12-03 15:07:35,480 - INFO - Displaying the head of the DataFrame...
+2023-12-03 15:07:35,682 - INFO - Writing to CSV...
+2023-12-03 15:07:35,854 - INFO - Script execution completed.
+2023-12-03 16:05:28,846 - INFO - Reading JSON file...
+2023-12-03 16:05:28,873 - INFO - Data loaded successfully.
+2023-12-03 16:05:30,213 - INFO - Displaying the head of the DataFrame...
+2023-12-03 16:05:30,425 - INFO - Writing to CSV...
+2023-12-03 16:05:30,578 - INFO - Script execution completed.
+2023-12-03 19:41:00,755 - INFO - Reading JSON file...
+2023-12-03 19:41:00,778 - INFO - Data loaded successfully.
+2023-12-03 19:41:02,152 - INFO - Displaying the head of the DataFrame...
+2023-12-03 19:41:02,361 - INFO - Writing to CSV...
+2023-12-03 19:41:02,528 - INFO - Script execution completed.
+2023-12-03 20:00:28,392 - INFO - Reading JSON contents...
+2023-12-03 20:00:28,425 - INFO - Data loaded successfully.
+2023-12-03 20:00:28,425 - INFO - Flatten json to df
+2023-12-03 20:00:29,969 - INFO - Writing to CSV...
+2023-12-03 20:00:30,125 - INFO - Script execution completed.
+2023-12-03 20:54:27,625 - INFO - Script execution completed.
+2023-12-03 20:55:08,427 - INFO - Script execution completed.
+2023-12-03 21:04:09,801 - INFO - Script execution ended.
+2023-12-03 21:10:16,151 - INFO - Script execution ended.
+2023-12-03 21:20:42,407 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:20:42,423 - INFO - Data loaded successfully.
+2023-12-03 21:20:42,423 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:27:55,465 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:27:55,496 - INFO - Data loaded successfully.
+2023-12-03 21:27:55,496 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:27:56,932 - INFO - Writing to CSV...
+2023-12-03 21:31:20,208 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:31:20,224 - INFO - Data loaded successfully.
+2023-12-03 21:31:20,239 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:31:21,707 - INFO - Writing to CSV...
+2023-12-03 21:32:07,579 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:32:07,611 - INFO - Data loaded successfully.
+2023-12-03 21:32:07,611 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:32:09,063 - INFO - Writing to CSV...
+2023-12-03 21:32:09,219 - INFO - Script execution ended.
+2023-12-03 21:32:39,074 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:32:39,090 - INFO - Data loaded successfully.
+2023-12-03 21:32:39,105 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:32:40,574 - INFO - Writing to CSV...
+2023-12-03 21:32:40,730 - INFO - Script execution ended.
+2023-12-03 21:39:52,130 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:39:52,161 - INFO - Data loaded successfully.
+2023-12-03 21:39:52,161 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:43:06,290 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:43:06,322 - INFO - Data loaded successfully.
+2023-12-03 21:43:06,322 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:45:32,377 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:45:32,408 - INFO - Data loaded successfully.
+2023-12-03 21:45:32,408 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:45:33,874 - INFO - Writing to CSV...
+2023-12-03 21:45:34,015 - INFO - Script execution ended.
+2023-12-03 21:47:56,402 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:47:56,417 - INFO - Data loaded successfully.
+2023-12-03 21:47:56,417 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:47:57,899 - INFO - Writing to CSV...
+2023-12-03 21:47:58,040 - INFO - Script execution ended.
+2023-12-03 21:48:08,740 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:48:08,755 - INFO - Data loaded successfully.
+2023-12-03 21:48:08,771 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:48:10,240 - INFO - Writing to PostgreSQL database...
+2023-12-03 21:50:24,370 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:50:24,401 - INFO - Data loaded successfully.
+2023-12-03 21:50:24,401 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:50:25,884 - INFO - Writing to PostgreSQL database...
+2023-12-03 21:50:31,751 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:50:31,767 - INFO - Data loaded successfully.
+2023-12-03 21:50:31,782 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:50:33,233 - INFO - Writing to PostgreSQL database...
+2023-12-03 21:50:43,501 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:50:43,516 - INFO - Data loaded successfully.
+2023-12-03 21:50:43,516 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:50:44,983 - INFO - Writing to CSV...
+2023-12-03 21:50:45,139 - INFO - Script execution ended.
+2023-12-03 21:59:36,048 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 21:59:36,079 - INFO - Data loaded successfully.
+2023-12-03 21:59:36,079 - INFO - Flatten JSON to DataFrame
+2023-12-03 21:59:37,452 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-03 21:59:37,665 - INFO - Writing to CSV...
+2023-12-03 21:59:37,812 - INFO - Script execution ended.
+2023-12-03 22:47:41,195 - INFO - Reading JSON contents from data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 22:47:41,219 - INFO - Data loaded successfully.
+2023-12-03 22:47:41,219 - INFO - Flatten JSON to DataFrame
+2023-12-03 22:47:42,561 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-03 22:47:42,764 - INFO - Writing to CSV...
+2023-12-03 22:47:42,920 - INFO - Script execution ended.
+2023-12-03 22:49:15,130 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 22:49:15,161 - INFO - Data loaded successfully.
+2023-12-03 22:49:15,161 - INFO - Flatten JSON to DataFrame
+2023-12-03 22:49:16,615 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-03 22:49:16,814 - INFO - Writing to CSV...
+2023-12-03 22:49:16,986 - INFO - Script execution ended.
+2023-12-03 23:05:10,975 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-03 23:05:11,005 - INFO - Data loaded successfully.
+2023-12-03 23:05:11,010 - INFO - Flatten JSON to DataFrame
+2023-12-03 23:05:12,399 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-03 23:05:12,613 - INFO - Writing to CSV...
+2023-12-03 23:05:12,777 - INFO - Script execution ended.
+2023-12-03 23:19:21,480 - INFO - Reading JSON contents from test_data.json...
+2023-12-03 23:19:21,480 - INFO - Data loaded successfully.
+2023-12-03 23:21:21,224 - INFO - Reading JSON contents from test_data.json...
+2023-12-03 23:21:21,224 - INFO - Data loaded successfully.
+2023-12-03 23:21:45,950 - INFO - Reading JSON contents from test_data.json...
+2023-12-03 23:21:45,950 - INFO - Data loaded successfully.
+2023-12-05 21:16:17,320 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:16:34,758 - INFO - Data loaded successfully.
+2023-12-05 21:16:34,758 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:16:36,038 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:16:36,238 - INFO - Writing to CSV...
+2023-12-05 21:16:36,396 - INFO - Script execution ended.
+2023-12-05 21:20:57,152 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:21:56,499 - INFO - Data loaded successfully.
+2023-12-05 21:21:56,504 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:21:58,769 - INFO -   resourceType         type  ... entry_932_request_method entry_932_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 36849 columns]
+2023-12-05 21:21:58,974 - INFO - Writing to CSV...
+2023-12-05 21:23:15,940 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:24:14,912 - INFO - Data loaded successfully.
+2023-12-05 21:24:14,917 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:24:17,078 - INFO -   resourceType         type  ... entry_932_request_method entry_932_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 36849 columns]
+2023-12-05 21:24:17,283 - INFO - Writing to CSV...
+2023-12-05 21:24:17,573 - INFO - Script execution ended.
+2023-12-05 21:30:16,005 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:30:34,273 - INFO - Data loaded successfully.
+2023-12-05 21:30:34,278 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:30:35,623 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:30:35,833 - INFO - Writing to CSV...
+2023-12-05 21:30:35,988 - INFO - Script execution ended.
+2023-12-05 21:45:57,553 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:46:02,207 - INFO - Data loaded successfully.
+2023-12-05 21:46:02,212 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:46:03,502 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:46:03,702 - INFO - Writing to CSV...
+2023-12-05 21:46:03,857 - INFO - Script execution ended.
+2023-12-05 21:46:27,198 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:46:29,511 - INFO - Data loaded successfully.
+2023-12-05 21:46:29,511 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:46:30,781 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:46:30,976 - INFO - Writing to CSV...
+2023-12-05 21:46:31,126 - INFO - Script execution ended.
+2023-12-05 21:46:44,873 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:46:49,460 - INFO - Data loaded successfully.
+2023-12-05 21:46:49,465 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:46:50,762 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:46:50,962 - INFO - Writing to CSV...
+2023-12-05 21:46:51,112 - INFO - Script execution ended.
+2023-12-05 21:48:52,705 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:48:57,129 - INFO - Data loaded successfully.
+2023-12-05 21:48:57,134 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:48:58,385 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:48:58,585 - INFO - Writing to CSV...
+2023-12-05 21:48:58,733 - INFO - Script execution ended.
+2023-12-05 21:49:48,547 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:49:57,287 - INFO - Data loaded successfully.
+2023-12-05 21:49:57,292 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:49:58,517 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:49:58,717 - INFO - Writing to CSV...
+2023-12-05 21:49:58,867 - INFO - Script execution ended.
+2023-12-05 21:50:13,425 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:50:15,642 - INFO - Data loaded successfully.
+2023-12-05 21:50:15,647 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:50:16,877 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:50:17,077 - INFO - Writing to CSV...
+2023-12-05 21:50:17,219 - INFO - Script execution ended.
+2023-12-05 21:53:49,655 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:53:51,925 - INFO - Data loaded successfully.
+2023-12-05 21:53:51,930 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:53:53,165 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:53:53,360 - INFO - Writing to CSV...
+2023-12-05 21:53:53,513 - INFO - Script execution ended.
+2023-12-05 21:54:35,395 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:54:36,065 - INFO - Data loaded successfully.
+2023-12-05 21:54:36,065 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:54:37,300 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:54:37,495 - INFO - Writing to CSV...
+2023-12-05 21:54:37,645 - INFO - Script execution ended.
+2023-12-05 21:54:50,852 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:54:51,142 - INFO - Data loaded successfully.
+2023-12-05 21:54:51,147 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:54:52,412 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:54:52,612 - INFO - Writing to CSV...
+2023-12-05 21:54:52,757 - INFO - Script execution ended.
+2023-12-05 21:55:06,716 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:55:06,861 - INFO - Data loaded successfully.
+2023-12-05 21:55:06,866 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:55:08,116 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:55:08,316 - INFO - Writing to CSV...
+2023-12-05 21:55:08,466 - INFO - Script execution ended.
+2023-12-05 21:55:16,291 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:55:16,391 - INFO - Data loaded successfully.
+2023-12-05 21:55:16,391 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:55:17,637 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:55:17,833 - INFO - Writing to CSV...
+2023-12-05 21:55:17,978 - INFO - Script execution ended.
+2023-12-05 21:55:28,699 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:55:28,744 - INFO - Data loaded successfully.
+2023-12-05 21:55:28,749 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:55:30,019 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:55:30,224 - INFO - Writing to CSV...
+2023-12-05 21:55:30,369 - INFO - Script execution ended.
+2023-12-05 21:55:38,595 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:55:38,625 - INFO - Data loaded successfully.
+2023-12-05 21:55:38,630 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:55:39,903 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:55:40,098 - INFO - Writing to CSV...
+2023-12-05 21:55:40,248 - INFO - Script execution ended.
+2023-12-05 21:55:45,798 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:55:45,823 - INFO - Data loaded successfully.
+2023-12-05 21:55:45,828 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:55:47,103 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:55:47,305 - INFO - Writing to CSV...
+2023-12-05 21:55:47,450 - INFO - Script execution ended.
+2023-12-05 21:55:58,508 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:55:58,533 - INFO - Data loaded successfully.
+2023-12-05 21:55:58,538 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:55:59,863 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:56:00,063 - INFO - Writing to CSV...
+2023-12-05 21:56:00,209 - INFO - Script execution ended.
+2023-12-05 21:56:14,799 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:56:14,844 - INFO - Data loaded successfully.
+2023-12-05 21:56:14,849 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:56:16,126 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:56:16,321 - INFO - Writing to CSV...
+2023-12-05 21:56:16,466 - INFO - Script execution ended.
+2023-12-05 21:56:39,558 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:56:39,598 - INFO - Data loaded successfully.
+2023-12-05 21:56:39,603 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:56:40,868 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:56:41,063 - INFO - Writing to CSV...
+2023-12-05 21:56:41,213 - INFO - Script execution ended.
+2023-12-05 21:59:34,353 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 21:59:34,393 - INFO - Data loaded successfully.
+2023-12-05 21:59:34,398 - INFO - Flatten JSON to DataFrame
+2023-12-05 21:59:35,702 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 21:59:35,901 - INFO - Writing to CSV...
+2023-12-05 21:59:36,056 - INFO - Script execution ended.
+2023-12-05 21:59:36,056 - INFO - Done. Time taken - 1.7080037593841553
+2023-12-05 22:02:41,277 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 22:02:41,317 - INFO - Data loaded successfully.
+2023-12-05 22:02:41,322 - INFO - Flatten JSON to DataFrame
+2023-12-05 22:02:42,582 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 22:02:42,782 - INFO - Writing to CSV...
+2023-12-05 22:02:42,927 - INFO - Script execution ended.
+2023-12-05 22:02:42,927 - INFO - Done. Time taken - 1.6550025939941406
+2023-12-05 22:27:34,920 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 22:27:34,963 - INFO - Data loaded successfully.
+2023-12-05 22:27:34,967 - INFO - Flatten JSON to DataFrame
+2023-12-05 22:27:36,300 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 22:27:36,511 - INFO - Writing to CSV...
+2023-12-05 22:27:36,665 - INFO - Script execution ended.
+2023-12-05 22:27:36,665 - INFO - Done. Time taken - 1.7470998764038086
+2023-12-05 22:30:29,986 - INFO - Reading JSON contents from ../data\Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 22:30:30,027 - INFO - Data loaded successfully.
+2023-12-05 22:30:30,031 - INFO - Flatten JSON to DataFrame
+2023-12-05 22:30:31,324 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 22:30:31,528 - INFO - Writing to CSV...
+2023-12-05 22:32:00,040 - INFO - Reading JSON contents from ../data\Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 22:32:00,083 - INFO - Data loaded successfully.
+2023-12-05 22:32:00,087 - INFO - Flatten JSON to DataFrame
+2023-12-05 22:32:01,385 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 22:32:01,590 - INFO - Writing to CSV...
+2023-12-05 22:36:52,886 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 22:36:52,929 - INFO - Data loaded successfully.
+2023-12-05 22:36:52,933 - INFO - Flatten JSON to DataFrame
+2023-12-05 22:36:54,247 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 22:36:54,450 - INFO - Writing to CSV...
+2023-12-05 22:36:54,600 - INFO - Reading JSON contents from ../data/Aaron697_Jerde200_6fa23508-960e-ff22-c3d0-0519a036543b.json...
+2023-12-05 22:36:54,688 - INFO - Data loaded successfully.
+2023-12-05 22:36:54,694 - INFO - Flatten JSON to DataFrame
+2023-12-05 22:36:56,855 - INFO -   resourceType         type  ... entry_932_request_method entry_932_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 36849 columns]
+2023-12-05 22:36:57,056 - INFO - Writing to CSV...
+2023-12-05 22:36:57,337 - INFO - Script execution ended.
+2023-12-05 22:36:57,337 - INFO - Done. Time taken - 4.455254793167114
+2023-12-05 22:37:38,728 - INFO - Reading JSON contents from ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json...
+2023-12-05 22:37:38,768 - INFO - Data loaded successfully.
+2023-12-05 22:37:38,773 - INFO - Flatten JSON to DataFrame
+2023-12-05 22:37:40,061 - INFO -   resourceType         type  ... entry_618_request_method entry_618_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 21936 columns]
+2023-12-05 22:37:40,264 - INFO - Writing to CSV...
+2023-12-05 22:37:40,413 - INFO - Reading JSON contents from ../data/Aaron697_Jerde200_6fa23508-960e-ff22-c3d0-0519a036543b.json...
+2023-12-05 22:37:40,504 - INFO - Data loaded successfully.
+2023-12-05 22:37:40,510 - INFO - Flatten JSON to DataFrame
+2023-12-05 22:37:42,622 - INFO -   resourceType         type  ... entry_932_request_method entry_932_request_url
+0       Bundle  transaction  ...                     POST            Provenance
+
+[1 rows x 36849 columns]
+2023-12-05 22:37:42,828 - INFO - Writing to CSV...
+2023-12-05 22:37:43,114 - INFO - Script execution ended.
+2023-12-05 22:37:43,114 - INFO - Done. Time taken - 4.389250993728638

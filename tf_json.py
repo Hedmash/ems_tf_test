@@ -8,6 +8,8 @@ import yaml
 import psycopg2
 import mysql.connector
 from pymongo import MongoClient
+import time
+
 
 log.basicConfig(filename='data_processing.log',
                     level=log.INFO,
@@ -26,6 +28,8 @@ class DataProcessor:
         self.format_type = None
         self.output = None
         self.db_config = None
+        self.output_folder = "transformed"
+        self.buffer_size = 1000000
 
     def flatten_json(self, data, parent_key='', sep='_'):
         for k, v in data.items():
@@ -42,17 +46,32 @@ class DataProcessor:
             else:
                 yield new_key, str(v).replace('\n', ' ')
 
+    def load_large_json(self, file_path, chunk_size):
+        with open(file_path, 'r') as file:
+            decoder = json.JSONDecoder()
+            buffer = ''
+            for chunk in iter(lambda: file.read(chunk_size), ''):
+                buffer += chunk
+                while buffer:
+                    try:
+                        obj, idx = decoder.raw_decode(buffer)
+                        yield obj
+                        buffer = buffer[idx:].lstrip()
+                    except ValueError:
+                        break
+
     def load_data(self, file_path):
         log.info(f'Reading JSON contents from {file_path}...')
-        with open(file_path, 'r') as file:
-            data = json.load(file)
+        data = []
+        for chunk in self.load_large_json(file_path, self.buffer_size):
+            data.append(chunk)
         log.info('Data loaded successfully.')
         return data
 
-    def output_data(self, df, output_type, output=None):
+    def output_data(self, df, output_type, output_folder=None, output=None):
         if output_type == 'csv':
             log.info('Writing to CSV...')
-            df.to_csv(self.output, index=False) 
+            df.to_csv(f'{output_folder}/{output.split("/")[-1]}.csv', index=False) 
         else:
             self.write_to_database(df, output_type, output)
 
@@ -80,16 +99,19 @@ class DataProcessor:
         parser = argparse.ArgumentParser(description='Process JSON data and store in CSV or database')
         parser.add_argument('--file_input', help='Pattern of JSON file(s) in data folder, e.g., *.json')
         parser.add_argument('--format', choices=['csv','postgres','mysql','mongo'], help='Output format type (e.g csv, mysql, mongo, postgres)')
-        parser.add_argument('--output', help='Filename for csv or table name for databases (for postgres, mysql, mongo)', required=True)
+        parser.add_argument('--output', help='Path for csv output or table name for databases (for postgres, mysql, mongo)', required=True)
         args = parser.parse_args()
 
         self.file_input = args.file_input
         self.format_type = args.format
         self.output = args.output
+        print(self.file_input)
 
         file_paths = glob.glob(self.file_input)
+        print(file_paths)
         for file_path in file_paths:
             if os.path.exists(file_path):
+                file_path = file_path.replace("\\","/")  # Handles windows backslash path
                 data = self.load_data(file_path)
                 self.db_config = ConfigHandler.load_config('db_config.yml')
 
@@ -103,14 +125,18 @@ class DataProcessor:
 
                 log.info(df.head())
                 if "csv" in self.format_type:
-                    self.output_data(df, self.format_type)
+                    self.output_data(df, self.format_type, self.output, file_path)
                 else:
                     self.output_data(df, self.format_type, self.output)
             else:
                 log.error(f'File not found: {file_path}')
 
 if __name__ == "__main__":
+    start_time = time.time()
     processor = DataProcessor()
     processor.process()
     log.info('Script execution ended.')
-    print("Done")
+    duration = time.time() - start_time
+    fmsg = f"Done. Time taken - {duration}"
+    log.info(fmsg)
+    print(fmsg)
