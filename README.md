@@ -39,7 +39,7 @@ Run the following command:
 
 Execute the following command for outputing values to a csv:
 
-	python tf_json.py --file_input ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json --format csv --output transformed
+	python tf_json.py --file_input ../data/Aaron697_* --format csv --output transformed
 
 The following command will upload fhir data to a database (e.g. postgres/mysql/mongo):
 
