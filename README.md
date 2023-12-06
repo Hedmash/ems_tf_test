@@ -37,11 +37,11 @@ Run the following command:
 
 ## Examples
 
-Execute the following command for outputing values to a csv
+Execute the following command for outputing values to a csv:
 
-	python tf_json.py --file_input ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json --format csv --output transformed.csv
+	python tf_json.py --file_input ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json --format csv --output transformed
 
-The following will command will upload fhir data to a database (e.g. postgres/mysql/mongo)
+The following command will upload fhir data to a database (e.g. postgres/mysql/mongo):
 
 	python tf_json.py --file_input ../data/Aaron697_Dickens475_8c95253e-8ee8-9ae8-6d40-021d702dc78e.json --format postgres --output your_table_name
 
